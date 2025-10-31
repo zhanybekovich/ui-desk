@@ -1,0 +1,108 @@
+/* CSS переменные / Custom properties / Кастомные свойства */
+:root {
+  --white: #fff;
+  --black: #000;
+  --brand-dark: #151414;
+  --brand-dark-light: #181d19;
+  --brand-dark-blue: #2c3847;
+  --brand-dark-gray: #657582;
+  --brand-middle-gray: #efe2dd;
+  --brand-light-gray: #f9f9f9;
+  --brand-accent: #85b200;
+  --brand-accent-light: #feb618;
+  --brand-medium-dark: #494949;
+  --brand-link-active: #5fb848;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, "sans-serif";
+  font-size: 18px;
+}
+
+.reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.reset-button {
+  border: none;
+  background-color: transparent;
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  padding: 40px 10px;
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  gap: 160px;
+  align-items: center;
+}
+
+.header__logo-link {
+  max-width: 100px;
+}
+
+.header__logo-img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.header__menu {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+}
+
+.header__menu-link {
+  font-weight: 400;
+  font-size: 20px;
+  color: var(--brand-dark-blue);
+  opacity: 0.8;
+  text-decoration: none;
+}
+
+.header__menu-link.active {
+  font-weight: 500;
+  color: var(--brand-link-active);
+}
+
+.header__right {
+  display: flex;
+  align-items: center;
+}
+
+.header__search-btn {
+  margin-right: 20px;
+}
+
+.header__cart-link {
+  margin-right: 30px;
+  text-decoration: none;
+}
+
+.header__order-link {
+  font-size: 20px;
+  text-align: center;
+  color: var(--white);
+  text-decoration: none;
+  background-color: var(--brand-medium-dark);
+  padding: 14px 30px;
+  border-radius: 27px;
+}
