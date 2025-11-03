@@ -111,6 +111,7 @@ body {
   max-width: 1300px;
   margin: 0 auto;
   display: flex;
+  margin-bottom: 100px;
 }
 
 .hero__left {
@@ -152,4 +153,65 @@ body {
   background-image: url("../img/hero-right-bg.png");
   width: 750px;
   height: 561px;
+}
+
+.features {
+  max-width: 1010px;
+  margin: 0 auto;
+  margin-bottom: 170px;
+}
+
+.features__top {
+  text-align: center;
+}
+
+.features__title {
+  font-weight: 600;
+  font-size: 54px;
+  color: #151414;
+  margin: 0;
+  margin-bottom: 15px;
+}
+
+.features__desc {
+  font-size: 24px;
+  color: #3b433e;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.features__list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  flex-wrap: wrap;
+}
+
+.features__item {
+  width: 270px;
+}
+
+.stat {
+  display: flex;
+  gap: 150px;
+  justify-content: center;
+}
+
+.stat__item {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.stat__counter {
+  font-weight: 700;
+  font-size: 44px;
+  text-align: center;
+  color: #000;
+}
+
+.stat__item-name {
+  font-size: 20px;
+  text-align: center;
+  color: #545454;
 }
