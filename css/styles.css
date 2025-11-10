@@ -264,3 +264,42 @@ body {
   margin: 0;
   margin-bottom: 68px;
 }
+
+.fresh-food {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  gap: 69px;
+  margin-bottom: 80px;
+}
+
+.fresh-food__img-wrapper {
+  width: 585px;
+  height: 480px;
+}
+
+.fresh-food__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.fresh-food__descr {
+  width: 516px;
+}
+
+.fresh-food__title {
+  font-size: 54px;
+  color: #151414;
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+.fresh-food__text {
+  font-size: 22px;
+  line-height: 155%;
+  color: #181d19;
+  margin: 0;
+  margin-bottom: 40px;
+}
